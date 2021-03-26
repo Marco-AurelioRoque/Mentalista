@@ -1,21 +1,29 @@
-var numerosecreto = parseInt(Math.random(1) * 10)
+
+//Numero secreto
+var numeroSecreto = parseInt(Math.random(1) * 10)
+//Cute
+var chute = document.getElementById('chute')
+//Tentativas
 var tentativas = 10
-
+//While
 while(tentativas > 0) {
-    var chute = parseInt(prompt("Digite um número entre 0 e 10"))
+    //Function onclick verificar
+    function verificarchute(){
+        document.getElementById('verificar')
 
-    if(numerosecreto == chute){
-        alert("ACERTOU!")
-        break
-    } else if (chute > numerosecreto) {
-        alert("O número secreto é Menor")
-        tentativas = tentativas -1
-    } else if (chute < numerosecreto) {
-        alert("O número secreto é Maior")
-        tentativas = tentativas -1
-    } 
-} 
+        if(numeroSecreto == chute) {
+            alert("Acertou, parabens!")
+        } else if(numeroSecreto > chute) {
+            alert("O número secreto é menor")
+            tentativas = tentativas -1
+        } else if (numeroSecreto < chute) {
+            alert("O número secreto é maior")
+            tentativas = tentativas -1
+        }
+    }
 
-if (chute != numerosecreto) {
-    alert(`Suas tentativas acabaram. O numero secreto era ${numerosecreto}`)
+}
+//Numero secreto diferente...
+if(numeroSecreto != chute){
+    alert("Suas tentativas acabram. O número secreto era " + numeroSecreto)
 }
