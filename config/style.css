@@ -7,43 +7,46 @@
 body{
   background-color: black;
 }
-  /*Div*/
-  .container {
-    margin: 150px auto 0 auto;
-    border:5px solid white;
-    border-radius: 10px;
-    background-color: red;
-    width: 500px;
-    text-align: center;
-    padding: 20px;
-    height: 50vh; 
-  }
-  /*Titulo*/
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
-  }
-  /*Subtitulo*/
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 5px;
-    margin-bottom: 9vh;
-  }
-  /*Input chute*/
-  #chute{
-    border-radius: 10px;
-    height: 30px;
-    width: 200px;
-  }
-  /*Botao verificar*/
-  #verificar{
-    background-color: rgb(180, 218, 253);
-    border-radius: 10px;
-    width: 200px;
-    height: 50px;
-  }
-  /*Verificar animated*/
-  #verificar:hover{
-    background-color: rgb(87, 187, 253);
-  }
+/*Div*/
+.container {
+  margin: 150px auto 0 auto;
+  border:5px solid white;
+  border-radius: 10px;
+  background-color: red;
+  width: 500px;
+  text-align: center;
+  padding: 20px;
+  height: 50vh; 
+}
+/*Titulo*/
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+/*Subtitulo*/
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 9vh;
+}
+/*Input chute*/
+#chute{
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+}
+
+
+
+/*Botao verificar*/
+#verificar{
+  background-color: rgb(180, 218, 253);
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+}
+/*Verificar animated*/
+#verificar:hover{
+  background-color: rgb(87, 187, 253);
+}
 
