@@ -50,3 +50,7 @@ body{
   background-color: rgb(87, 187, 253);
 }
 
+.removeResultado{
+  display: none;
+}
+
