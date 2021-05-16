@@ -2,7 +2,7 @@
 
 ### **Sobre o projeto**
 
-Projeto concluido durante o evento ImersãoDev da alura, esse é um "joguinho" para descobrir um numero, que utiliza a função `Math.random` 
+Projeto concluido durante o evento ImersãoDev da alura, esse é um "joguinho" para descobrir um numero, que utiliza a função `Math.random`. OBS: __NAO FUNCIONAL__ 
 
 ### **Lista de tarefas**
 
